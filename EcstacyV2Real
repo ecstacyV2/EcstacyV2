@@ -15,7 +15,7 @@ local TeleportService = game:GetService("TeleportService")
 -- Create Key Verification Window
 local KeyWindow = Fluent:CreateWindow({
     Title = "ECSTACY V2 - KEY VERIFICATION",
-    SubTitle = "Premium Access System",
+    SubTitle = "Script Access System",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 200),
     Acrylic = true,
@@ -49,7 +49,7 @@ KeyTab:AddButton({
     Description = "Check key validity",
     Callback = function()
         local key = string.lower(KeyInput.Value:gsub("%s+", ""))
-        if key == "shakshokasotuff" then
+        if key == "shakshokasotuff45" then
             Fluent:Notify({
                 Title = "Access Granted",
                 Content = "Loading EcstacyV2...",
